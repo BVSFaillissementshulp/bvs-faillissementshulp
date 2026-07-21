@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    font-family:Poppins,sans-serif;
+    background:#081321;
+    color:#fff;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+h1,h2,h3{
+    margin-top:0;
+}
+
+section{
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    transition:.3s;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.btn{
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#f2cf59;
+}
+
+nav a{
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#d4af37;
+}
+
+.whatsapp{
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+    transition:.3s;
+}
+
+.whatsapp:hover{
+    transform:scale(1.08);
+}
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    width:100%;
+    left:0;
+    padding:20px;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    display:inline-block;
+    margin:8px;
+}
+
+.hero h1{
+    font-size:38px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+}
